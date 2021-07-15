@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+
+}
+.half-width img{
+    width: 70%;
+}
+.link-batton{
+    text-decoration: none;
+background-color: orange;
+padding: 10px 40px;
+background-image: linear-gradient(orange, tomato
+);
+border-radius: 5px;
+}
+
+
+.problm-1{
+
+    margin-left: 40px;
+    margin-top: 15%;
+    max-width: 650px;
+    margin-bottom: 100px;
+}
+
+.my-recvt{
+    color: red;
+text-align: center;
+}
+
+
+
+.fak{
+    font-size: 50px;
+    color: orange;
+    margin: 30px;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .hexagon
+{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    margin: 50px 20px 70px;
+}
+.container .hexagon::before
+{
+    content: '';
+    position: absolute;
+    bottom: -50;
+    width: 100%;
+    height: 40px;
+    background: rgb(233, 9, 9);
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-top: 120px;
+}
+.container .hexagon::before
+{
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+.container .hexagon .shape
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(18, 22, 19);
+    clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 18%);
+
+
+
+}
+.shape img{
+    width: 350px;
+    height: 400px;
+}
+.container .hexagon .shape .content
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(45deg,#03a9f4,rgba(3,169,244,05)):
+    color: white;
+    opacity: 0;
+    transition:0.5s;
+    
+}
+
+.container .hexagon:hover .shape .content{
+    opacity: 1;
+
+}
+
+footer{
+    text-align: center;
+
+    width: 1380px;
+    height: 120px;
+    background-color: rgb(15, 4, 4);
+    font-size: 20px;
+}
+footer p{
+    padding-top: 40px;
+color:white
+}
+
+.con-tent h1{
+    display: inline-block; 
+    font-size: 33px;
+    margin: 20px;
+}
+
+.fa-dribbble{
+    color: chartreuse;
+}
+
+.fa-youtube{
+    color: red;
+    font-size: 35px;
+}
+.fa-instagram{
+    color: yellow;
+}
